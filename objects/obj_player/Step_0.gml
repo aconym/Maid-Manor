@@ -9,28 +9,28 @@ var lk=keyboard_check(vk_left)
 // Grid-based movement
 if place_snapped(64,64){ // Check if object is in a proper grid
     if lk {
-		if !place_meeting(x-64,y,Wall_OBJ) { // Check wall collision
+		if !place_meeting(x-64,y,obj_wall) { // Check wall collision
 			direction=180;speed=movspd;
 		} else {
 			speed=0;
 		}
 	}
     if rk {
-		if !place_meeting(x+64,y,Wall_OBJ) {
+		if !place_meeting(x+64,y,obj_wall) {
 			direction=0;speed=movspd;
 		} else {
 			speed=0;
 		}
 	}
     if uk {
-		if !place_meeting(x,y-64,Wall_OBJ) {
+		if !place_meeting(x,y-64,obj_wall) {
 			direction=90;speed=movspd;
 		} else {
 			speed=0;
 		}
 	}
     if dk {
-		if !place_meeting(x,y+64,Wall_OBJ) {
+		if !place_meeting(x,y+64,obj_wall) {
 			direction=270;speed=movspd;
 		} else {
 			speed=0;

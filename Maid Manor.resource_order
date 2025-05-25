@@ -17,7 +17,13 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Wall_OBJ","order":1,"path":"objects/Wall_OBJ/Wall_OBJ.yy",},
-    {"name":"Wall","order":1,"path":"sprites/Wall/Wall.yy",},
+    {"name":"obj_load_game_button","order":4,"path":"objects/obj_load_game_button/obj_load_game_button.yy",},
+    {"name":"obj_menu_button_parent","order":2,"path":"objects/obj_menu_button_parent/obj_menu_button_parent.yy",},
+    {"name":"obj_new_game_button","order":3,"path":"objects/obj_new_game_button/obj_new_game_button.yy",},
+    {"name":"obj_quit_button","order":5,"path":"objects/obj_quit_button/obj_quit_button.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"spr_menu_button","order":2,"path":"sprites/spr_menu_button/spr_menu_button.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
